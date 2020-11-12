@@ -1,0 +1,48 @@
+{
+    "flags" : [
+        {
+            "id" : 1,
+            "flag_name" : "Pakistan",
+            "prefix" : "92",
+            "digits" : 10,
+            "format" : "3XXYYYYYYY"
+        },
+        {
+            "flag_name" : "Egypt",
+            "prefix" : "20",
+            "digits" : 10,
+            "format" : "1XXYYYYYY"
+        },
+        {
+            "flag_name" : "India",
+            "prefix" : "91",
+            "digits" : 10,
+            "format" : [
+                {
+                    "s6" : "6XXYYYYYYY"
+                },
+                {
+                    "s7" : "7XXYYYYYYY"
+                },
+
+                {
+                    "s8" : "8XXYYYYYYY"
+                },
+                {
+                    "s9" : "9XXYYYYYYY"
+                }
+            ]
+        },
+        {
+            "flag_name" : "Saudi Arabia",
+            "prefix" : "966",
+            "digits" : 10
+        },
+        {
+            "flag_name" : "UAE",
+            "prefix" : "971",
+            "digits" : 9,
+            "format" : "5XYYYYYYY"
+        }
+    ]
+}
